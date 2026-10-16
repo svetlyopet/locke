@@ -1,0 +1,14 @@
+# Cue weights for the confidence average.
+# Edit a number, then run: python track.py
+# The tracker reads this file from the card (/sdcard/weights.txt).
+# A cue that abstains is left out. 0 keeps the cue in the log and out of the average.
+# A missing name keeps its default.
+
+appearance 1
+unique 3
+motion 8
+size 4
+temperature 3
+anchor 1
+hottest 5
+sole 5
